@@ -15,5 +15,6 @@ git add .
 git commit -m %CURRENT_DATE%
 git remote rm origin
 git remote add origin git@github.com:yuan1115/omlogin.git
+git pull origin master
 git push -u origin master
 echo. & pause
