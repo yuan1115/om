@@ -46,15 +46,15 @@ Ajax.get("https://api.zhiyuan1115.wang/test.php?token="+token,function(res){
   
 })
 //这里是账户
-document.getElementsByClassName('email-input')[0].defaultValue = "ry3@runyin39.club"
-document.getElementsByClassName('email-input')[0].value = "ry3@runyin39.club"
-document.getElementsByClassName('email-input')[1].defaultValue = "ry3@runyin39.club"
-document.getElementsByClassName('email-input')[1].value = "ry3@runyin39.club"
+document.getElementsByClassName('email-input')[0].defaultValue = "username"
+document.getElementsByClassName('email-input')[0].value = "username"
+document.getElementsByClassName('email-input')[1].defaultValue = "username"
+document.getElementsByClassName('email-input')[1].value = "username"
 //这里是密码
-document.getElementsByClassName('password-input')[0].defaultValue = "Runyinljj993"
-document.getElementsByClassName('password-input')[0].value = "Runyinljj993"
-document.getElementsByClassName('password-input')[1].defaultValue = "Runyinljj993"
-document.getElementsByClassName('password-input')[1].value ="Runyinljj993"
+document.getElementsByClassName('password-input')[0].defaultValue = "password"
+document.getElementsByClassName('password-input')[0].value = "password"
+document.getElementsByClassName('password-input')[1].defaultValue = "password"
+document.getElementsByClassName('password-input')[1].value ="password"
 //模拟登陆
 // Ajax.get("https://om.qq.com/userAuth/randomCode?email=ry13%40runyin22.club&relogin=1",function(res){
 //   var res =  eval('(' + res + ')')
